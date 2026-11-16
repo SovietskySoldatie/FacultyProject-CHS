@@ -1,0 +1,6 @@
+The app aims to create a smart alarm clock.
+The user will create an alarm (behaves like a normal alarm clock there), while the alarm may only be turned off by scanning different items (or codes on stickers) or perform specific actions (physical and intellectual).
+All items and actions are chosen by the user. Specific approach (predefined set of items/actions, fully customisable set) may be chosen at a later stage.
+Object scanning will be achieved using a local VLM (specifics TBA).
+An alarm may always have a bypass method, the last available way to turn it off being inserting a password (with specific standards).
+The project aims for maximum device compatibility on mobile (smartphone) devices.

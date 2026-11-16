@@ -1,8 +1,10 @@
 ## TO-DOs:
 - [ ] Add specs & reqs & docs
     - [x] Add original specifications (`specs/original specs.txt`)
-    - [ ] Decompose specifications into formal specs (`specs/formal specs.md`)
-    - [ ] Add and decompose project requirements (`reqs/requirements.md`)
+    - [x] Decompose specifications into formal specs (`specs/formal specs.md`)
+    - [x] Add and decompose project requirements (`reqs/requirements.md`)
+    - [x] Decompose specifications into formal specs (`specs/formal specs.md`)
+    - [ ] Add and decompose project requirements (`reqs/reqs.md`)
     - [ ] Add documentations (`docs`)
 - [ ] Define project architecture
     - [ ] Hardware-Software codesign partitioning
@@ -12,6 +14,9 @@
                 - [ ] Use cases
                 - [ ] Components
                 - [ ] Main states
+                - [x] Use cases (`reqs/reqs.md`)
+                - [x] Components (`reqs/reqs.md`)
+                - [x] Main states (`reqs/reqs.md`)
                 - [ ] Sequence flows
         - [ ] Merge HW & SW architectures
     - [ ] Create package and module structure

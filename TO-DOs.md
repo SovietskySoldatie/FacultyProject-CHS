@@ -1,0 +1,35 @@
+## TO-DOs:
+- [ ] Add specs & reqs & docs
+    - [x] Add original specifications (`specs/original specs.txt`)
+    - [ ] Decompose specifications into formal specs (`specs/formal specs.md`)
+    - [ ] Add and decompose project requirements (`reqs/requirements.md`)
+    - [ ] Add documentation
+- [ ] Define project architecture
+    - [ ] Hardware-Software codesign partitioning
+        - [ ] Identify hardware architecture and platform constraints (sensors, camera, NPU/GPU acceleration, power/wake-locks)
+        - [ ] Define software architecture (background services, local VLM inference pipeline, multi-modal verification)
+            - [ ] Add UML diagrams for:
+                - [ ] Use cases
+                - [ ] Components
+                - [ ] Main states
+                - [ ] Sequence flows
+        - [ ] Merge HW & SW architectures
+    - [ ] Create package and module structure
+    - [ ] Review package structure
+    - [ ] Improve package structure (if needed)
+    - [ ] Create interfaces & base contracts
+    - [ ] Document architecture
+        - [ ] Add diagrams (Mermaid architecture diagrams, state machines, and sequence flows)
+        - [ ] Keep architecture up-to-date as both members merge their interfaces
+- [ ] Define software & hardware design
+    - [ ] Define hardware abstraction layer (Camera, Sensors, Audio, Power/WakeLock)
+    - [ ] Define data models, schemas, and persistence contracts
+- [ ] Implement code
+    - [ ] Initial ramp-up
+        - [ ] Define interfaces and contracts
+        - [ ] Implement base app logic and lifecycle services
+    - [ ] Prepare demo
+        - [ ] Implement working prototype (alarm triggering, local VLM verification, and emergency bypass)
+    - TBA
+- [ ] Implement tests
+    - TBA
